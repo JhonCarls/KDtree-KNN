@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas de Proximidad con KDTree</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Consultas de Proximidad con KDTree</h1>
+        <div class="controls">
+            <label for="k-input">Número de repartidores a agrupar (k):</label>
+            <input type="number" id="k-input" value="3" min="1">
+        </div>
+        <div id="map"></div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
